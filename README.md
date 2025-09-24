@@ -1,6 +1,6 @@
 # CampusCare-Digital-Mental-Health-Support
 
-### [Visit the Website](https://campuscare-mentalhealth.vercel.app/)
+### [Visit the Website](https://campuscarevjit.netlify.app/)
 ---
 
 
