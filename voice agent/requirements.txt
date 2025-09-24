@@ -1,0 +1,10 @@
+flask
+python-dotenv
+google-generativeai
+waitress
+supabase
+psycopg[binary]
+requests
+gunicorn
+
+

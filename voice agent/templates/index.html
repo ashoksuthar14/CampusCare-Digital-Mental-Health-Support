@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI Therapist for Students</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header>
+        <div class="title">
+          <h1>AI Therapist</h1>
+          <p class="subtitle">Empathetic support for students</p>
+        </div>
+        <div class="header-actions">
+          <button id="endBtn" title="End this chat and start over">End Chat</button>
+        </div>
+      </header>
+
+      <div class="content">
+        <section class="chat-panel">
+          <div class="name-capture" id="nameCapture">
+            <label for="studentName">Your name</label>
+            <div class="name-row">
+              <input type="text" id="studentName" placeholder="Enter your name to begin" />
+              <button id="saveNameBtn" class="secondary">Start</button>
+            </div>
+          </div>
+          <main id="chat" aria-live="polite" aria-label="Chat transcript"></main>
+
+          <form id="chatForm">
+            <textarea id="message" placeholder="Share what's on your mind... (Shift+Enter for newline)" rows="3" required></textarea>
+            <button type="submit" id="sendBtn">Send</button>
+          </form>
+        </section>
+
+        <aside class="side-panel">
+          <div class="timer-card">
+            <div class="timer-label">Session Time</div>
+            <div id="timerDisplay" class="timer-value">00:00</div>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- Booking confirmation modal -->
+    <div id="bookingModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="bookingTitle">
+      <div class="modal-content">
+        <h3 id="bookingTitle">Appointment Booked</h3>
+        <p id="bookingDetails" class="muted"></p>
+        <div class="modal-actions">
+          <button id="closeBookingBtn">OK</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Vapi Voice/Chat Widget -->
+    <div class="vapi-container" id="vapiContainer">
+      <vapi-widget
+        public-key="1a9889f1-1556-44da-8713-d744c68eb7b8"
+        assistant-id="755c8618-aacf-4298-99c5-fc62058f2e46"
+        mode="voice"
+        theme="light"
+        base-bg-color="#ffffff"
+        accent-color="#14B8A6"
+        cta-button-color="#ffffff"
+        cta-button-text-color="#000000"
+        border-radius="large"
+        size="full"
+        position="bottom-right"
+        title="Cary"
+        start-button-text="Start"
+        end-button-text="End Call"
+        chat-first-message="Hey, How can I help you today?"
+        chat-placeholder="Type your message..."
+        voice-show-transcript="true"
+        consent-required="true"
+        consent-title="Terms and conditions"
+        consent-content='By clicking "Agree," and each time I interact with this AI agent, I consent to the recording, storage, and sharing of my communications with third-party service providers, and as otherwise described in our Terms of Service.'
+        consent-storage-key="vapi_widget_consent"
+      ></vapi-widget>
+    </div>
+
+    <script src="https://unpkg.com/@vapi-ai/client-sdk-react/dist/embed/widget.umd.js" async type="text/javascript"></script>
+    
+    <!-- Fixed Private toggle in top-right corner -->
+    <div class="privacy-fixed">
+      <label class="switch" title="Toggle private mode">
+        <input type="checkbox" id="privateToggle" />
+        <span class="slider"></span>
+        <span class="switch-label">Private</span>
+      </label>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+  </html>
+
+
