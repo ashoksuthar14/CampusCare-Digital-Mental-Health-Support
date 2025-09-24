@@ -77,42 +77,13 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 
 ## 🛠️ Technologies Used  
 
-### Frontend  
-- **React.js** – Dynamic UI  
-- **Next.js** – Full-stack framework  
-- **Tailwind CSS** – Styling  
 
-### Backend & APIs  
-- **FastAPI / Flask** – Backend integration  
-- **Vapi** – Voice assistant  
-- **YouTube API** – Content curation  
-
-### AI & Machine Learning  
-- **Fine-tuned LLaMA / Mistral** – Chatbot  
-- **BERT / RoBERTa / DistilBERT** – Sentiment analysis  
-- **PyTorch / scikit-learn** – Recommendation engine  
-- **Pinecone (Vector DB)** – FAQs & embeddings  
-
-### Database & Storage  
-- **Supabase** – User & insights storage  
-- **AWS S3** – Media hosting  
-
-### Automation & Integration  
-- **n8n / Make** – Workflow automation  
-- **Google Calendar / Outlook API** – Appointment booking  
-- **WebSockets** – Real-time peer connections  
-
----
 
 <img src="images/campuscare-tech-stack.png" alt="CampusCare Tech Stack" />  
 
 ---
 
 
-
-### Tech Stack Overview
-<img src="images/campuscare-tech-stack.png" alt="CampusCare Tech Stack" />
----
 ## How to Run the Project Locally
 1. Clone the repository:
    ```bash
