@@ -2,81 +2,122 @@
 
 ### [Visit the Website](https://campuscare-mentalhealth.vercel.app/)
 ---
-## Introduction
-**CampusCare** is a comprehensive digital mental health and psychological support system designed specifically for students in higher education. By leveraging AI-driven conversational agents, peer-networking capabilities, wellness resources, and proactive risk detection mechanisms, CampusCare provides 24/7 mental health support in a stigma-free, accessible, and cost-effective way. The platform combines cutting-edge technology with human oversight to address rising stress, anxiety, and isolation among students while providing institutions with actionable insights to improve student well-being.
+# 🌱 CampusCare - Digital Mental Health Support  
+
+### [🚀 Visit the Website](https://campuscare-mentalhealth.vercel.app/)  
+
 ---
+
+## 📖 Introduction  
+**CampusCare** is a comprehensive **digital mental health and psychological support system** designed for students in higher education.  
+
+By leveraging **AI-driven conversational agents, peer networking, wellness resources, and proactive risk detection**, CampusCare offers **24/7 stigma-free, accessible, and cost-effective support**.  
+
+The platform combines **cutting-edge AI technology with human oversight** to address stress, anxiety, and isolation among students, while providing **institutions with actionable insights** to improve overall student well-being.  
+
+---
+
 <img src="images/campuscare-homepage.png" alt="CampusCare Homepage" />
+
 ---
-## Key Features
-### 1. **AI-Driven Mental Health Support**
-🤖 *24/7 Intelligent Chatbot & Voice Assistant powered by Fine-tuned LLMs.*
-- Provides therapy-like conversations, coping strategies, and guided exercises
-- Multilingual support for accessibility across diverse student populations
-- Private chat option - conversations can be kept confidential and won't be shared with counselors
-- Escalates to human counselors for severe mental health concerns
+
+## ✨ Key Features  
+
+### 1. **AI-Driven Mental Health Support** 🤖  
+*24/7 Intelligent Chatbot & Voice Assistant powered by fine-tuned LLMs*  
+- Therapy-like conversations, coping strategies & guided exercises  
+- Multilingual support for inclusivity  
+- Confidential chat mode  
+- Escalation to human counselors for severe cases  
+
+<img src="images/ai-chatbot-interface.png" alt="AI Chatbot Interface" />  
+<img src="images/voice-assistant-demo.png" alt="Voice Assistant Demo" />  
+
 ---
-<img src="images/ai-chatbot-interface.png" alt="AI Chatbot Interface" />
+
+### 2. **Peer Socialization & Networking** 👥  
+*AI-Powered Peer Matching for Community Building*  
+- Connects students via intelligent matching algorithms  
+- Mentor-peer dynamics for guidance  
+- Group study sessions & support networks  
+- Helps reduce isolation for students away from home  
+
+<img src="images/peer-networking-dashboard.png" alt="Peer Networking Dashboard" />  
+
 ---
-<img src="images/voice-assistant-demo.png" alt="Voice Assistant Demo" />
+
+### 3. **Wellness Media Hub** 📺  
+*Curated Mental Health Resources & AI-Generated Content*  
+- Comprehensive video & tutorial library  
+- Personalized content recommendations  
+- Covers stress management, meditation, breathing techniques, etc.  
+- Multilingual subtitles for accessibility  
+
+<img src="images/wellness-media-hub.png" alt="Wellness Media Hub" />  
+
 ---
-### 2. **Peer Socialization & Networking**
-👥 *AI-Powered Peer Matching for Community Building.*
-- Intelligent matching algorithm connects students based on interests, strengths, and emotional compatibility
-- Creates mentor-peer dynamics by pairing students with similar challenges
-- Facilitates group study sessions and community support networks
-- Reduces isolation, especially beneficial for students away from home
+
+### 4. **Early Risk Detection** ⚠️  
+*Proactive AI Monitoring for Student Safety*  
+- Sentiment analysis & behavioral monitoring  
+- Auto-schedules counselor appointments  
+- Emergency alerts to helplines (anonymous)  
+- Early intervention to prevent crises  
+
+<img src="images/risk-detection-dashboard.png" alt="Risk Detection System" />  
+
 ---
-<img src="images/peer-networking-dashboard.png" alt="Peer Networking Dashboard" />
+
+### 5. **Institutional Insights Dashboard** 📊  
+*Data-Driven Mental Health Analytics*  
+- Aggregated, anonymized insights for institutions  
+- Tracks stress patterns & mental health trends  
+- Supports curriculum reform & awareness campaigns  
+- Generates individual counselor reports (with consent)  
+
+<img src="images/institutional-dashboard.png" alt="Institutional Analytics Dashboard" />  
+
 ---
-### 3. **Wellness Media Hub**
-📺 *Curated Mental Health Resources & AI-Generated Content.*
-- Comprehensive library of wellness videos, tutorials, and expert-led content
-- Personalized recommendations based on emotional profiles
-- Topics include panic attack management, meditation, breathing techniques, and exam stress
-- Multilingual video subtitles for enhanced accessibility
+
+## 🛠️ Technologies Used  
+
+### Frontend  
+- **React.js** – Dynamic UI  
+- **Next.js** – Full-stack framework  
+- **Tailwind CSS** – Styling  
+
+### Backend & APIs  
+- **FastAPI / Flask** – Backend integration  
+- **Vapi** – Voice assistant  
+- **YouTube API** – Content curation  
+
+### AI & Machine Learning  
+- **Fine-tuned LLaMA / Mistral** – Chatbot  
+- **BERT / RoBERTa / DistilBERT** – Sentiment analysis  
+- **PyTorch / scikit-learn** – Recommendation engine  
+- **Pinecone (Vector DB)** – FAQs & embeddings  
+
+### Database & Storage  
+- **Supabase** – User & insights storage  
+- **AWS S3** – Media hosting  
+
+### Automation & Integration  
+- **n8n / Make** – Workflow automation  
+- **Google Calendar / Outlook API** – Appointment booking  
+- **WebSockets** – Real-time peer connections  
+
 ---
-<img src="images/wellness-media-hub.png" alt="Wellness Media Hub" />
+
+<img src="images/campuscare-tech-stack.png" alt="CampusCare Tech Stack" />  
+
 ---
-### 4. **Early Risk Detection**
-⚠️ *Proactive AI Monitoring for Student Safety.*
-- Continuous sentiment analysis and behavioral pattern detection
-- Auto-books counselor appointments for at-risk students
-- Sends anonymous emergency alerts to mental health helplines
-- Prevents late intervention by catching warning signs early
----
-<img src="images/risk-detection-dashboard.png" alt="Risk Detection System" />
----
-### 5. **Institutional Insights Dashboard**
-📊 *Data-Driven Mental Health Analytics for Institutions.*
-- Aggregated, anonymized insights for colleges and administrators
-- Tracks mental health trends, stress patterns, and common concerns
-- Guides curriculum reforms, awareness campaigns, and wellness workshops
-- Individual reports for counselors (with student consent)
----
-<img src="images/institutional-dashboard.png" alt="Institutional Analytics Dashboard" />
----
-## Technologies Used
-### Frontend
-- **React.js** - Dynamic user interface
-- **Next.js** - Full-stack React framework
-- **Tailwind CSS** - Modern styling framework
-### Backend & APIs
-- **FastAPI/Flask** - Backend API integration
-- **Vapi Voice Assistant** - Speech-to-speech conversations
-- **YouTube API** - Wellness content curation
-### AI & Machine Learning
-- **Fine-tuned LLaMA/Mistral** - Mental health chatbot
-- **BERT/RoBERTa/DistilBERT** - Sentiment analysis
-- **PyTorch/scikit-learn** - Recommendation engine
-- **Vector Database (Pinecone)** - Mental health FAQs storage
-### Database & Storage
-- **Supabase** - User profiles and insights storage
-- **AWS S3** - Media hub hosting
-### Automation & Integration
-- **n8n/Make** - Workflow automation
-- **Google Calendar/Outlook API** - Appointment booking
-- **WebSockets** - Real-time peer connections
----
+
+## 🚀 How to Run the Project Locally  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/campuscare.git
+
 ### Tech Stack Overview
 <img src="images/campuscare-tech-stack.png" alt="CampusCare Tech Stack" />
 ---
