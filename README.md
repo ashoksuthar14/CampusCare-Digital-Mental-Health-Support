@@ -13,7 +13,7 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 
 ---
 
-<img src="images/campuscare-homepage.png" alt="CampusCare Homepage" />
+<img src="images/heropage.png" alt="CampusCare Homepage" />
 
 ---
 
@@ -26,8 +26,8 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 - Confidential chat mode  
 - Escalation to human counselors for severe cases  
 
-<img src="images/ai-chatbot-interface.png" alt="AI Chatbot Interface" />  
-<img src="images/voice-assistant-demo.png" alt="Voice Assistant Demo" />  
+<img src="images/ai_cahtbot.png" alt="AI Chatbot Interface" />  
+ 
 
 ---
 
@@ -38,7 +38,7 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 - Group study sessions & support networks  
 - Helps reduce isolation for students away from home  
 
-<img src="images/peer-networking-dashboard.png" alt="Peer Networking Dashboard" />  
+<img src="images/peermatching.png" alt="Peer Networking Dashboard" />  
 
 ---
 
@@ -49,7 +49,7 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 - Covers stress management, meditation, breathing techniques, etc.  
 - Multilingual subtitles for accessibility  
 
-<img src="images/wellness-media-hub.png" alt="Wellness Media Hub" />  
+<img src="images/mediapage.png" alt="Wellness Media Hub" />  
 
 ---
 
@@ -71,7 +71,7 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 - Supports curriculum reform & awareness campaigns  
 - Generates individual counselor reports (with consent)  
 
-<img src="images/institutional-dashboard.png" alt="Institutional Analytics Dashboard" />  
+<img src="images/dashboard.png" alt="Institutional Analytics Dashboard" />  
 
 ---
 
@@ -79,7 +79,7 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 
 
 
-<img src="images/campuscare-tech-stack.png" alt="CampusCare Tech Stack" />  
+<img src="images/techstack.jpg" alt="CampusCare Tech Stack" />  
 
 ---
 <img src="images/flowcahrt.png" alt="CampusCare Tech Stack" />  
