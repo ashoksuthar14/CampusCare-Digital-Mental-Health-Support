@@ -2,11 +2,7 @@
 
 ### [Visit the Website](https://campuscare-mentalhealth.vercel.app/)
 ---
-# 🌱 CampusCare - Digital Mental Health Support  
 
-### [🚀 Visit the Website](https://campuscare-mentalhealth.vercel.app/)  
-
----
 
 ## 📖 Introduction  
 **CampusCare** is a comprehensive **digital mental health and psychological support system** designed for students in higher education.  
@@ -64,7 +60,7 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 - Emergency alerts to helplines (anonymous)  
 - Early intervention to prevent crises  
 
-<img src="images/risk-detection-dashboard.png" alt="Risk Detection System" />  
+
 
 ---
 
@@ -112,11 +108,7 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 
 ---
 
-## 🚀 How to Run the Project Locally  
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/your-username/campuscare.git
 
 ### Tech Stack Overview
 <img src="images/campuscare-tech-stack.png" alt="CampusCare Tech Stack" />
@@ -181,10 +173,7 @@ Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
 ## License
 This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 ---
-## Support & Contact
-- 📧 Email: support@campuscare.com
-- 💬 Discord: [Join our community](https://discord.gg/campuscare)
-- 🐛 Issues: [Report bugs here](https://github.com/your-username/campuscare/issues)
+
 ---
 ## Acknowledgments
 - Mental health professionals who provided guidance on therapeutic approaches
