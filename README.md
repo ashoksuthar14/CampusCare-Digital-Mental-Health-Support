@@ -82,7 +82,7 @@ The platform combines **cutting-edge AI technology with human oversight** to add
 <img src="images/campuscare-tech-stack.png" alt="CampusCare Tech Stack" />  
 
 ---
-
+<img src="images/flowcahrt.png" alt="CampusCare Tech Stack" />  
 
 ## How to Run the Project Locally
 1. Clone the repository:
